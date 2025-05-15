@@ -7,6 +7,6 @@ const adminController = require("../controller/adminController");
 
 
 router.post("/cadastro",adminController.postUser);
-router.get("/info",adminController.getAdmin);
+router.get("/login",adminController.getAdmin);
 
 module.exports = router;
